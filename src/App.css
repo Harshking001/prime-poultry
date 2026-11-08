@@ -66,28 +66,126 @@ nav{
 }
 
 #about-us{
-    padding: 50px 0;
+    padding: 50px 5px;
 
     #about{
-    display: grid;
-    grid-template-columns: 1fr;
-    .about{
-        background: white;
-        height: 80dvh;
-        display: flex;
-        box-shadow: 2px 2px 10px;
-        text-align: center;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 10px;
-        border-radius: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        .about{
+            background: white;
+            height: 80dvh;
+            transition: all 0.5s ease;
+            display: flex;
+            box-shadow: 1px 1px 5px;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            border-radius: 10px;
+            position: relative;
 
-        img{
-            width: 100%;
-            height: 60dvh;
+            h4{
+                /* z-index: 2; */
+            }
+
+            .item-container{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+            }
+            img{
+                /* z-index: 2; */
+                width: 100%;
+                height: 60dvh;
+            }
+
+            .fill{
+                position: absolute;
+                width: 100%;
+                transition:all 0.5s ease;
+                height: 0;
+                bottom: 0;
+                border-radius: 10px;
+                background: var(--color-fill);
+            }
+        }
+
+        .about:hover{
+            scale: 0.9;
+            .fill{
+                height: 100%;
+            }
         }
     }
+
+    .available-chicks{ 
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        padding-top: 50px;
+        span{
+            color: orange;
+        }
+        img{
+            width: 50%;
+        }
+
+        p{
+            color: rgb(114, 114, 114);
+        }
+    }
+
+    .price-list{   
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        text-align: end;
+        span{
+            color: orange;
+        }
+        img{
+            width: 50%;
+        }
+
+        p{
+            color: rgb(114, 114, 114);
+        }
+    }
+}
+
+#contact{
+    padding: 0 10px;
+    .contact{
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        i{
+            font-size: 150%;
+            color: var(--bg);
+            margin: 10px;
+            background: var(--color-primary);
+            padding: 10px 13px;
+            border-radius: 10px;
+        }
+
+        .bi-tiktok{
+            background: var(--color-dark);
+        }
+        .bi-instagram{
+            background: linear-gradient(45deg, rgb(161, 1, 209), rgb(255, 208, 0));
+        }
+
+        .bi-telephone{
+            background: linear-gradient(45deg, rgb(4, 172, 202), rgb(0, 34, 128));
+        }
     }
 }
 
@@ -95,16 +193,37 @@ footer{
     padding: 10px;
     background: var(--color-dark);
     color: var(--bg);
+
+    a{
+        color: rgb(0, 204, 255);
+    }
 }
 
 @media (min-width: 600px){
-    #about-us #about{
-        grid-template-columns: 1fr 1fr;
+    #contact{
+        .contact{
+            i{
+                font-size: 200%;
+            }
+        }
+    }
+    #about-us{
+        #about{
+            grid-template-columns: 1fr 1fr;
+        }
+        .available-chicks,.price-list{
+            font-size: 150%; 
+        }
     }
 }
 
 @media (min-width: 840px){
-    #about-us #about{
-        grid-template-columns: 1fr 1fr 1fr;
+    #about-us{
+        #about{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .available-chicks,.price-list{
+            font-size: 250%; 
+        }
     }
 }

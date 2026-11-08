@@ -4,7 +4,8 @@
   --color-secondary: linear-gradient(45deg,rgb(250, 171, 0), rgb(231, 235, 5));
   --color-text: black;
   --color-grey: grey;
-  --color-dark: linear-gradient(45deg, black, grey)
+  --color-dark: linear-gradient(45deg, black, grey);
+  --color-fill: radial-gradient(rgba(7, 212, 7, 0.705), rgba(2, 109, 16, 0.726));
 }
 
 *{
@@ -14,7 +15,7 @@
 
 body{
   background: var(--bg);
-
+  
   .button{
       padding: 8px 15px;
       text-decoration: none;
