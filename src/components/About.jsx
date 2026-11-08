@@ -18,6 +18,10 @@ const About = () => {
                 <img src="/incubator.jpeg" alt="image" />
             </div>
             <div className="about">
+                <h4>We also sell gadgets.</h4>
+                <img src="/item.jpeg" alt="image" />
+            </div>
+            <div className="about">
                 <h4>We also sell incubators</h4>
                 <img src="/machine.jpeg" alt="image" />
             </div>
