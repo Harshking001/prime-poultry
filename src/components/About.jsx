@@ -14,12 +14,16 @@ const About = () => {
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJCcfm20ykFjSo8Z-pvYrRJ1NNRKTWFRx7u5lNIBgiIw&s=10" alt="image" />
             </div>
             <div className="about">
-                <h4>Customer care and satisfaction is guaranteed.</h4>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5LrkLrx6qmhL47MNMuNz_ntdPZy01RkvV5zH99xKiEg&s=10" alt="image" />
+                <h4>We also sell incubators</h4>
+                <img src="/machine.jpeg" alt="image" />
             </div>
             <div className="about">
                 <h4>We also deal in incubation.</h4>
                 <img src="/incubator.jpeg" alt="image" />
+            </div>
+            <div className="about">
+                <h4>Customer care and satisfaction is guaranteed.</h4>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5LrkLrx6qmhL47MNMuNz_ntdPZy01RkvV5zH99xKiEg&s=10" alt="image" />
             </div>
             <div className="about">
                 <h4>Our chicks are the best and they come at the most affordable prices.</h4>
