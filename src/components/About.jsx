@@ -7,7 +7,7 @@ const About = () => {
         <div id="about">
             <div className="about">
                 <h4>Incubation and production of all types of chicks.</h4>
-                <img src="/machine.jpeg" alt="image" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhAuEzpgV0DeBLmzXbmyOT1HjIJp2GNH3i50dJVxSpZQ&s=10" alt="image" />
             </div>
             <div className="about">
                 <h4>We also deal in eggs production and supply.</h4>
