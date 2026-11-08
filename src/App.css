@@ -91,6 +91,12 @@ nav{
     }
 }
 
+footer{
+    padding: 10px;
+    background: var(--color-dark);
+    color: var(--bg);
+}
+
 @media (min-width: 600px){
     #about-us #about{
         grid-template-columns: 1fr 1fr;
