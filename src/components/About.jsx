@@ -14,7 +14,7 @@ const About = () => {
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJCcfm20ykFjSo8Z-pvYrRJ1NNRKTWFRx7u5lNIBgiIw&s=10" alt="image" />
             </div>
             <div className="about">
-                <h4>We also deal in incubation.</h4>
+                <h4>We also deal in incubation services.</h4>
                 <img src="/incubator.jpeg" alt="image" />
             </div>
             <div className="about">
