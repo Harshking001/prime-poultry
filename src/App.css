@@ -29,40 +29,47 @@ nav{
     }
 }
 #hero{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
-    #machine{
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        z-index: 2;
-        border-radius: 50%;
-    }
+    .hero{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        max-width: 3000px;
+        #machine{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            z-index: 2;
+            border-radius: 50%;
+        }
 
-    #chicks{
-        width: 90%;
-        height: 60dvh;
-        border-radius: 0 0 20px 50%;
-    }
+        #chicks{
+            width: 90%;
+            height: 60dvh;
+            border-radius: 0 0 20px 50%;
+        }
 
-    #eggs{
-        width: 40%;
-        position: absolute;
-        top: 5px;
-        right: 5px;
-        border-radius: 10px;
-    }
+        #eggs{
+            width: 40%;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            border-radius: 10px;
+            max-width: 300px;
+        }
 
-    #logo{
-        position: absolute;
-        width: 150px;
-        height: 150px;
-        left: 0;
-        bottom: 0;
-        border-radius: 50%;
-        background: var(--bg);
+        #logo{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            left: 0;
+            bottom: 0;
+            border-radius: 50%;
+            background: var(--bg);
+        }
     }
 }

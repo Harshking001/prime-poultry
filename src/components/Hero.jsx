@@ -18,10 +18,12 @@ const Hero = () => {
     },[])
   return (
     <section id="hero">
-      <img src="/logo.png" alt="logo" id="logo" />
-      <img src="/chicks.webp" alt="image" id="chicks" />
-      <img src="/hero.webp" alt="image" id="eggs" />
-      <img src="/machine.jpeg" alt="image" id="machine" />
+        <div className="hero">
+            <img src="/logo.png" alt="logo" id="logo" />
+            <img src="/chicks.webp" alt="image" id="chicks" />
+            <img src="/hero.webp" alt="image" id="eggs" />
+            <img src="/machine.jpeg" alt="image" id="machine" />
+        </div>
     </section>
   )
 }
