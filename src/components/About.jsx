@@ -2,20 +2,23 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about-us">
         <h2>We deal with</h2>
-        <div className="about">
-            <h4>Incubation and production of all types of chicks.</h4>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhAuEzpgV0DeBLmzXbmyOT1HjIJp2GNH3i50dJVxSpZQ&s=10" alt="image" />
+        <div id="about">
+            <div className="about">
+                <h4>Incubation and production of all types of chicks.</h4>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhAuEzpgV0DeBLmzXbmyOT1HjIJp2GNH3i50dJVxSpZQ&s=10" alt="image" />
+            </div>
+            <div className="about">
+                <h4>We also deal in eggs production and supply.</h4>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJCcfm20ykFjSo8Z-pvYrRJ1NNRKTWFRx7u5lNIBgiIw&s=10" alt="image" />
+            </div>
+            <div className="about">
+                <h4>Our chicks are the best and they come at the most affordable prices.</h4>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd5f0UasTsWwzun9nQXnNLyTPxOGuC6wDG1ar33fS1eg&s=10" alt="image" />
+            </div>
         </div>
-        <div className="about">
-            <h4>We also deal in eggs production and supply.</h4>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJCcfm20ykFjSo8Z-pvYrRJ1NNRKTWFRx7u5lNIBgiIw&s=10" alt="image" />
-        </div>
-        <div className="about">
-            <h4>Our chicks are the best and they come at the most affordable prices.</h4>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd5f0UasTsWwzun9nQXnNLyTPxOGuC6wDG1ar33fS1eg&s=10" alt="image" />
-        </div>
+        
     </section>
   )
 }
