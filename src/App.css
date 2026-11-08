@@ -102,6 +102,7 @@ footer{
         grid-template-columns: 1fr 1fr;
     }
 }
+
 @media (min-width: 840px){
     #about-us #about{
         grid-template-columns: 1fr 1fr 1fr;

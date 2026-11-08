@@ -7,7 +7,7 @@ const Navbar = () => {
             <h3><span>PRIME</span> POULTRY</h3>
         </div>
       <div className="buttons">
-        <div className="button contact">contact</div>
+        <a href="https://wa.me/254722991159" className="button contact">contact</a>
         <div className="button explore">explore</div>
       </div>
     </nav>

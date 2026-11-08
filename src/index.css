@@ -17,6 +17,7 @@ body{
 
   .button{
       padding: 8px 15px;
+      text-decoration: none;
       cursor: pointer;
       background: var(--bg);
       margin: 3px;
