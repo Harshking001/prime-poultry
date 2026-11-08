@@ -1,6 +1,6 @@
 :root{
   --bg: rgb(221, 219, 219);
-  --color-primary: radial-gradient(rgb(8, 236, 8), rgb(4, 145, 23));
+  --color-primary: radial-gradient(rgb(7, 212, 7), rgb(2, 109, 16));
   --color-secondary: linear-gradient(45deg,rgb(250, 171, 0), rgb(231, 235, 5));
   --color-text: black;
   --color-grey: grey;
@@ -13,5 +13,19 @@
 }
 
 body{
-  background: var(--bg)
+  background: var(--bg);
+
+  .button{
+      padding: 8px 15px;
+      cursor: pointer;
+      background: var(--bg);
+      margin: 3px;
+      border-radius: 20px;
+      color: var(--color-text);
+      transition: all 0.5s ease;
+  }
+
+  .button:hover{
+    scale: 1.05;
+  }
 }

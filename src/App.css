@@ -13,15 +13,6 @@ nav{
     .buttons{
         display: flex;
 
-        .button{
-            padding: 8px 15px;
-            cursor: pointer;
-            background: var(--bg);
-            margin: 3px;
-            border-radius: 20px;
-            color: var(--color-text);
-        }
-
         .explore{
             color: var(--bg);
             background: var(--color-dark)

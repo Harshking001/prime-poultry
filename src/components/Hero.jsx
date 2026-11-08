@@ -20,7 +20,7 @@ const Hero = () => {
     <section id="hero">
         <div className="hero">
             <img src="/logo.png" alt="logo" id="logo" />
-            <img src="/chicks.webp" alt="image" id="chicks" />
+            <img src="/chicks.jpg" alt="image" id="chicks" />
             <img src="/hero.webp" alt="image" id="eggs" />
             <img src="/machine.jpeg" alt="image" id="machine" />
         </div>
