@@ -33,10 +33,9 @@ const About = () => {
             <div className="about">
                 <h4>We sell incubators accessories.</h4>
                 <div className="item-container">
-                    <img src="/item.jpeg" alt="image" />
-                    <img src="/item1.jpeg" alt="image" />
-                    <img src="/item2.jpeg" alt="image" />
-                    <img src="/item3.jpeg" alt="image" />
+                    <img src="/item4.jpeg" alt="image" />
+                    <img src="/item5.jpeg" alt="image" />
+                    <img src="/item6.jpeg" alt="image" />
                 </div>
                 <div className="fill"></div>
             </div>
