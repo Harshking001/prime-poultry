@@ -21,6 +21,11 @@ const About = () => {
                 <div className="fill"></div>
             </div>
             <div className="about">
+                <h4>We also sell incubators</h4>
+                <img src="/machine.jpeg" alt="image" />
+                <div className="fill"></div>
+            </div>
+            <div className="about">
                 <h4>We also sell gadgets.</h4>
                 <div className="item-container">
                     <img src="/item.jpeg" alt="image" />
@@ -37,11 +42,6 @@ const About = () => {
                     <img src="/item5.jpeg" alt="image" />
                     <img src="/item6.jpeg" alt="image" />
                 </div>
-                <div className="fill"></div>
-            </div>
-            <div className="about">
-                <h4>We also sell incubators</h4>
-                <img src="/machine.jpeg" alt="image" />
                 <div className="fill"></div>
             </div>
             <div className="about">
