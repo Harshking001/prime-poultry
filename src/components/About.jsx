@@ -11,7 +11,7 @@ const About = () => {
                 <div className="fill"></div>
             </div>
             <div className="about">
-                <h4>We also deal in apostrophe eggs production and supply.</h4>
+                <h4>We also deal in; eggs production and supply.</h4>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJCcfm20ykFjSo8Z-pvYrRJ1NNRKTWFRx7u5lNIBgiIw&s=10" alt="image" />
                 <div className="fill"></div>
             </div>
